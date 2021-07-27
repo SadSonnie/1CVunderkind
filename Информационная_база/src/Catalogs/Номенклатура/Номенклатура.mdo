@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a7c1615-773b-4281-bca4-357c7d2ad595">
+  <producedTypes>
+    <objectType typeId="32bce920-8071-46c9-9815-bfdbb4b1a388" valueTypeId="0aad6854-50c3-48e7-bcb6-cf85cf34763d"/>
+    <refType typeId="af22ef25-7607-4b12-a15f-cc98b0fe1656" valueTypeId="b27054e2-4ddb-494b-a379-937fc2c352f5"/>
+    <selectionType typeId="380680ce-fa7c-4ade-a12c-60e027bcbcd8" valueTypeId="e67cb8d2-fa10-482f-9b4a-34aa5f161110"/>
+    <listType typeId="01a91a76-5c6b-47ee-ba1f-0f94978b6c13" valueTypeId="5d25a420-a822-4477-9104-a6b8a43ffad0"/>
+    <managerType typeId="9357f2c6-dd14-41e2-be7b-c6a9cf191dc6" valueTypeId="0e5ef258-0406-402f-aec0-06b8a5e53d0d"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a44d8942-3598-4e82-818e-b030b319a36c">
+    <name>ОписаниеТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание товара</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bad33983-34b1-4088-9732-ecc02fb8ac02">
+    <name>ОсновнойПоставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5abf7a2e-7585-48cd-b20c-f668a08e2490">
+    <name>ТипТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип товара</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

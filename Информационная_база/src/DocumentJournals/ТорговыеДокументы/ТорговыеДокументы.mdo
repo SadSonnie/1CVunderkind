@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="819798ab-24d8-43c6-bb03-80c53fa015eb">
+  <producedTypes>
+    <selectionType typeId="f856a12a-d774-41f2-abe9-8577de178d18" valueTypeId="9e630470-bcec-4382-bb89-e53a56675f15"/>
+    <listType typeId="c17ab589-a865-4dfd-b51e-6eb5aae2414b" valueTypeId="b97e9123-4f89-438d-b080-53e6c957b58a"/>
+    <managerType typeId="bb9b1422-ccc8-4fa7-889a-daf66fd9d73c" valueTypeId="9bc9cfee-72a8-49d5-ad0a-e997db4a70c7"/>
+  </producedTypes>
+  <name>ТорговыеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Торговые документы</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ТорговыеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ЗаказКлиента</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТовара</registeredDocuments>
+  <columns uuid="4abdb45e-95c2-4167-b35c-862dc7208edc">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <references>Document.ЗаказКлиента.Attribute.Клиент</references>
+    <references>Document.РеализацияТовара.Attribute.Клиент</references>
+  </columns>
+  <forms uuid="ab46d3b2-27ac-41e1-8ef2-620b67e80398">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

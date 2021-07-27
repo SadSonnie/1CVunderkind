@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13ec009d-cf6d-417c-9850-2b2e5172b0fe">
+  <name>БухУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бух учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>ChartOfAccounts.БухгалтерскийУчет</content>
+  <content>AccountingRegister.РегистрБухУчет</content>
+  <content>Report.ОстаткиПоСчетамБу</content>
+  <content>Report.Баланс</content>
+  <content>Document.ЗакрытиеМесяца</content>
+</mdclass:Subsystem>

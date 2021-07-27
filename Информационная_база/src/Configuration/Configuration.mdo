@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a1f497a-22d1-4171-ab74-2348797ee308">
+  <name>DemoCompany</name>
+  <synonym>
+    <key>ru</key>
+    <value>Demo Company Inc.</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="ebb67c62-c908-46aa-8296-0cafb39aa2bc"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b8f95bc3-014d-49d6-8fa8-86c4a01903d5"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="6c3c5bd7-e27f-4e31-82b2-7b5bcc12f18b"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="37bf374d-1219-440f-bd2b-4f17ac3db4bd"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7f786179-86d0-4584-9435-f1655c783308"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="31b87797-3cbb-40c6-931e-b05d20897313"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="431a9abb-c3ba-462d-a654-d32f900fbb11"/>
+  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="47b4bbd3-5945-4b7c-a061-9d459de53439">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.БухУчет</subsystems>
+  <subsystems>Subsystem.Зарплата</subsystems>
+  <subsystems>Subsystem.БизнесПроцессы</subsystems>
+  <commonPictures>CommonPicture.ПодсистемаПродажи</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаПокупки</commonPictures>
+  <constants>Constant.НаименованиеОрганизации</constants>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтатусыСделок</catalogs>
+  <documents>Document.ПоступлениеТовара</documents>
+  <documents>Document.ЗаказКлиента</documents>
+  <documents>Document.РеализацияТовара</documents>
+  <documents>Document.ВыпискаБанка</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <documents>Document.ЗакрытиеМесяца</documents>
+  <documents>Document.УтверждениеГрафикаРабот</documents>
+  <documents>Document.НачислениеОклада</documents>
+  <documents>Document.НевыходСотрудника</documents>
+  <documentJournals>DocumentJournal.ТорговыеДокументы</documentJournals>
+  <enums>Enum.ТипыТоваров</enums>
+  <reports>Report.ОтчетПоКонтрагентам</reports>
+  <reports>Report.ПоставщикиНоменклатуры</reports>
+  <reports>Report.ПродажиТоваровПоДокументам</reports>
+  <reports>Report.ОстаткиВзаиморасчетов</reports>
+  <reports>Report.ПродажиТоваров</reports>
+  <reports>Report.ПродажиПоТабличнойЧасти</reports>
+  <reports>Report.ОстаткиПоСчетамБу</reports>
+  <reports>Report.Баланс</reports>
+  <reports>Report.ВоронкаПродаж</reports>
+  <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ГрафикРаботы</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СебестоимостьТоваов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВоронкаПродаж</accumulationRegisters>
+  <chartsOfAccounts>ChartOfAccounts.БухгалтерскийУчет</chartsOfAccounts>
+  <accountingRegisters>AccountingRegister.РегистрБухУчет</accountingRegisters>
+  <chartsOfCalculationTypes>ChartOfCalculationTypes.Начисления</chartsOfCalculationTypes>
+  <calculationRegisters>CalculationRegister.ЗаработнаяПлата</calculationRegisters>
+  <businessProcesses>BusinessProcess.ПриемСотрудникаНаРаботу</businessProcesses>
+  <businessProcesses>BusinessProcess.НастойчиваяПродажа</businessProcesses>
+  <tasks>Task.ЗадачиПриемаСотрудника</tasks>
+  <tasks>Task.ЗадачиНастойчивыхПродаж</tasks>
+</mdclass:Configuration>
